@@ -1,0 +1,126 @@
+/* style.css */
+
+body {
+    font-family: blue, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #white;
+}
+
+/* Header */
+header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+	color:green;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+header .logo {
+    margin: 0;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #green;
+    font-weight: 500;
+}
+
+/* Banner */
+.banner {
+    background: #00bfff;
+    color: #green;
+    text-align: center;
+    padding: 60px 20px;
+}
+.banner h2 {
+    margin: 0 0 10px;
+    font-size: 36px;
+	color:green;
+}
+.banner p {
+    margin: 0;
+    font-size: 18px;
+	color:green;
+}
+
+/* Contact Form */
+.contact-form {
+    padding: 50px 20px;
+}
+.contact-form .container {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.contact-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form form button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    border: none;
+    color: #green;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-form form button:hover {
+    background: #0056b3;
+}
+
+/* Location */
+.location {
+    padding: 50px 20px;
+    text-align: center;
+}
+.location .btn-map {
+    display: inline-block;
+    padding: 10px 20px;
+    background:green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.location .btn-map:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #green;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p {
+    margin: 5px 0;
+}
